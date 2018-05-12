@@ -1,0 +1,277 @@
+@charset "UTF-8";
+  body {
+    font-family: '맑은 고딕', 'Apple SD Gothic Neo', sans-serif;
+  }
+
+  .box1 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  .box2 {
+    background-color: #7cdac1;
+  }
+
+  .box3 {
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+
+  .box4 {
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+
+  .box5 {
+    border-top: solid 1px #dddddd;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  /* 사이트 이름*/
+
+  .site h1 a {
+    color: #000000;
+    text-decoration: none;
+  }
+
+  .site h1 {
+    margin: 0;
+    font-size: 30px;
+  }
+  /* 내비게이션*/
+
+  .menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .menu li a {
+    display: block;
+    padding: 15px;
+    color: #000000;
+    font-size: 14px;
+    text-decoration: none;
+  }
+
+  .menu li a:hover {
+    background-color: #75dbe7;
+  }
+
+  .menu ul::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  .menu li {
+    float: left;
+    width: auto;
+  }
+  /* 기사 */
+
+  .story img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .story h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 36px;
+  }
+
+  .story p {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  /*기사 작성일*/
+  .storyInfo{
+    margin-top: -10px;
+    margin-bottom: 20px;
+  }
+
+  .storyInfo i {
+    margin-right: 5px;
+    color: #aaaaaa;
+    font-size: 20px;
+  }
+
+  /* 사이드 메뉴 */
+
+  .sideMenu {
+    margin-bottom: 30px
+  }
+
+  .sideMenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .sideMenu li a {
+    display: block;
+    padding: 5px;
+    color: #000000;
+    font-size: 14px;
+    text-decoration: none;
+  }
+
+  .sideMenu li a:hover {
+    background-color: #eeeeee;
+  }
+
+  .sideMenu h1 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    border-bottom: solid 2px #dddddd;
+    color: #666666;
+    font-size: 18px;
+  }
+  /*추천 기사 메뉴 */
+
+  .recommend {
+    margin-bottom: 30px
+  }
+
+  .recommend ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .recommend li a {
+    display: block;
+    padding: 5px;
+    color: #000000;
+    font-size: 14px;
+    text-decoration: none;
+  }
+
+  .recommend li a:hover {
+    background-color: #eeeeee;
+  }
+
+  .recommend h1 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    border-bottom: solid 2px #dddddd;
+    color: #666666;
+    font-size: 18px;
+  }
+  /* 인기 기사 메뉴*/
+
+  .popular ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .popular li a {
+    display: block;
+    padding: 5px;
+    color: #000000;
+    font-size: 14px;
+    text-decoration: none;
+  }
+
+  .popular li a:hover {
+    background-color: #eeeeee;
+  }
+
+  .popular h1 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    border-bottom: solid 2px #dddddd;
+    color: #666666;
+    font-size: 18px;
+  }
+
+  .copyRight p {
+    margin: 0;
+    color: #666666;
+    font-size: 14px;
+  }
+    /*##########599이하###########*/
+  @media (max-width:599px) {
+    /*네비게이션 - 599이하의 사이즈 일경우 덮어씀*/
+    .menu li a {
+      padding: 10px 3px;
+      font-size: 11px;
+    }
+    .site h1 {
+      font-size: 15px;
+    }
+    .story h1 {
+      font-size: 20px;
+    }
+    /*박스 위아래의 간격*/
+    .box1 {
+      padding-top: 4px;
+      padding-bottom: 3px;
+    }
+    .box3 {
+      padding-top: 25px;
+    }
+    /*##########600~767이하###########*/
+    @media (min-width:600px) and (max-width:767px) {
+      .box4::after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+      .box4-1 {
+        float: left;
+        width: 50%;
+      }
+      .box4-2 {
+        float: left;
+        width: 50%;
+      }
+      /*box4-1 & box4-2 간격 조정*/
+      .box4-1 {
+        padding-right: 20px;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+      .box4-2 {
+        padding-left: 20px;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+    }
+    @media(min-width:768px) {
+      .boxA::after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+      .box3 {
+        float: left;
+        width: 70%;
+      }
+      .box4 {
+        float: left;
+        width: 30%;
+      }
+      .box3 {
+        /*box3과 box4 왼쪽 오른쪽의 간격*/
+        padding-right: 50px;
+        /*오래된 버전의 파이어폭스,  iOS, 안드로이드 버전 지원*/
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+    }
+    /*##########1080이상###########*/
+    @media (min-width:1080px) {
+
+      .box1, .box2, .boxA, .box5{
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
