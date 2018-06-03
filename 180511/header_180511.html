@@ -1,50 +1,51 @@
-<html lang="en">
+<html>
+
 <head>
     <meta charset="UTF-8">
-    
-    <title>Document</title>
-    
-</head>
-<style>
-    .box1{
-        display: block;
-    }
-    .box2{
-        display: inline;
-    }
-    .box2 img{
-        margin-top: 10px;
-        width: 5%;
-    }
-    .box2 span{
-        font-size: 30px;
-    }
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    .box3{
-        display: block;
-        width: 13%;
-        float:right;
-    }
-    
-</style>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
 <body>
     <header>
-        <div class="box1">
-            
-            <div class="box2">
-                <img src="../img/if_60-Camera_2123916.png" alt="logo">    
-                <span>Instargram</span>
+        <div class="insta__header">
+
+            <div class="insta__logo">
+               <a href=""><i class="fab fa-instagram fa-3x"></i></a>
             </div>
 
-            <div class="box3">
-                <nav class="nav">
-                    <ul>
-                        <li><a href="#"><img src="../img/if_41-User_2123927.png" alt="#"></a></li>
-                    </ul>
-                </nav>
+            <div class="insta__selbox">
+                <input type="text" size="20" placeholder="검색">
+            </div>
+
+            <div class="insta__item">
+                <div class="item__compass">
+                    <a href="#">
+                        <i class="far fa-compass fa-3x"></i>
+                    </a>
+
+                </div>
+                <div class="item__heart">
+                    <a href="#">
+                        <i class="fas fa-heart fa-3x"></i>
+                    </a>
+
+                </div>
+                <div class="item__user">
+                    <a href="#">
+                        <i class="far fa-user-circle fa-3x"></i>
+                    </a>
+
+                </div>
             </div>
         </div>
     </header>
-    
+
 </body>
+
 </html>

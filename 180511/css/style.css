@@ -1,0 +1,37 @@
+.body{ 
+    margin:0;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited, a:hover{
+    color: black;
+}
+
+.insta__header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    padding-bottom: 15px;
+}
+
+.insta__logo{
+    display: flex;
+    padding: 10px, 10px;
+}
+
+.insta__selbox{
+    padding-top: 20px;
+}
+
+.insta__item{
+    display: flex;
+}
+
+.item__compass,
+.item__heart,
+.item__user{
+    padding-left: 40px;
+}
