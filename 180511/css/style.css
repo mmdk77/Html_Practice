@@ -1,38 +1,175 @@
-.body{ 
+@charset "UTF-8";
+
+.body { 
     margin:0;
 }
 
-a{
-    text-decoration: none;
+/* 스마트폰 */
+@media (max-width:480px){
+    .far .fa-compass .fa-2x{
+        width: 5px;
+        height: 5px;
+    }
+    .insta__header{
+        display: flex;
+        justify-content: center;
+        border-bottom: 1px solid rgba(0,0,0,0.2);
+        margin:0px;
+        height: 70px;
+    
+    }
+    
+    .insta__logo{
+        
+     
+    }
+    
+    .insta__selbox{
+       
+    }
+    
+    .insta__item{
+        display: flex;
+    }
+    
+    .item__compass,
+    .item__heart,
+    .item__user{
+     
+    }
+    
+    
+    a{
+        text-decoration: none;
+    }
+    
+    a:link, a:visited, a:hover{
+        color: black;
+    }
 }
 
-a:link, a:visited, a:hover{
-    color: black;
+/* 태블릿 */
+@media (max-width:768px){
+    .insta__header{
+        display: flex;
+        justify-content: center;
+        border-bottom: 1px solid rgba(0,0,0,0.2);
+        padding-top: 20px;
+        margin:0px;
+        height: 70px;
+    
+    }
+    
+    .insta__logo{
+      
+    }
+    
+    .insta__selbox{
+        padding-top: 20px;
+       
+    }
+    
+    .insta__item{
+        display: flex;
+    }
+    
+    .item__compass,
+    .item__heart,
+    .item__user{
+        padding-top:10px;
+      
+    }
+    
+    
+    a{
+        text-decoration: none;
+    }
+    
+    a:link, a:visited, a:hover{
+        color: black;
+    }
 }
 
-.insta__header{
-    display: flex;
-    justify-content: center;
-    border-bottom: 1px solid;
-    padding-bottom: 15px;
+/* 태블릿부터 노트북 */
+@media (min-width:768px) and (max-width: 1024px){
+    .insta__header{
+        display: flex;
+        justify-content: center;
+        border-bottom: 1px solid rgba(0,0,0,0.2);
+        padding-top: 20px;
+        margin:0px;
+        height: 70px;
+    
+    }
+    
+    .insta__logo{
+        padding-right: 300px;
+    }
+    
+    .insta__selbox{
+        padding-top: 20px;
+        padding-right: 150px;  
+    }
+    
+    .insta__item{
+        display: flex;
+    }
+    
+    .item__compass,
+    .item__heart,
+    .item__user{
+        padding-top:10px;
+        padding-left:70px;
+    }
+    
+    
+    a{
+        text-decoration: none;
+    }
+    
+    a:link, a:visited, a:hover{
+        color: black;
+    }
 }
 
-.insta__logo{
-    display: flex;
-    padding-right: 40px;
-}
+/* 노트북 부터 데스크탑 */
+@media (min-width:1024px) and (max-width:1440px){
+    .insta__header{
+        display: flex;
+        justify-content: center;
+        border-bottom: 1px solid rgba(0,0,0,0.2);
+        padding-top: 20px;
+        margin:0px;
+        height: 70px;
 
-.insta__selbox{
-    padding-top: 20px;
-}
+    }
 
-.insta__item{
-    display: flex;
-}
+    .insta__logo{
+        padding-right: 300px;
+    }
 
-.item__compass,
-.item__heart,
-.item__user{
-    padding-top:10px;
-    padding-left:70px;
+    .insta__selbox{
+        padding-top: 20px;
+        padding-right: 150px;  
+    }
+
+    .insta__item{
+        display: flex;
+    }
+
+    .item__compass,
+    .item__heart,
+    .item__user{
+        padding-top:10px;
+        padding-left:70px;
+    }
+
+
+    a{
+        text-decoration: none;
+    }
+
+    a:link, a:visited, a:hover{
+        color: black;
+    }
 }
