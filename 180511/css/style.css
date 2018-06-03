@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-.body { 
+body { 
     margin:0;
 }
 
@@ -96,19 +96,20 @@
         display: flex;
         justify-content: center;
         border-bottom: 1px solid rgba(0,0,0,0.2);
-        padding-top: 20px;
+        padding-top: 10px;
         margin:0px;
         height: 70px;
     
     }
     
     .insta__logo{
-        padding-right: 300px;
+        padding-right: 100px;
     }
     
     .insta__selbox{
         padding-top: 20px;
-        padding-right: 150px;  
+        padding-right: 80px;  
+         
     }
     
     .insta__item{
@@ -119,7 +120,8 @@
     .item__heart,
     .item__user{
         padding-top:10px;
-        padding-left:70px;
+        padding-left:30px;
+      
     }
     
     
@@ -133,7 +135,7 @@
 }
 
 /* 노트북 부터 데스크탑 */
-@media (min-width:1024px) and (max-width:1440px){
+@media (min-width:1024px) and (max-width:1920px){
     .insta__header{
         display: flex;
         justify-content: center;
