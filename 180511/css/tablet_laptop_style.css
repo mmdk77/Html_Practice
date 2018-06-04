@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+body { 
+    margin:0;
+}
+
+input[type=text]{
+    border-radius: 5px;
+}
+
+/* 태블릿부터 노트북 */
+@media(min-width:768px) and (max-width: 1024px){
+    .insta__header{
+        display: flex;
+        justify-content: space-around;
+        border-bottom: 1px solid rgba(0,0,0,0.2);
+        padding-top: 10px;
+        margin:0px;
+        height: 70px;
+    
+    }
+    
+    .insta__logo{
+        padding-right: 100px;
+    }
+    
+    .insta__selbox{
+        padding-top: 20px;
+        padding-right: 80px;  
+    }
+    
+    .insta__item{
+        display: flex;
+    }
+    
+    .item__compass,
+    .item__heart,
+    .item__user{
+        padding-top:10px;
+        padding-left:30px;
+      
+    }
+
+    a{
+        text-decoration: none;
+    }
+    
+    a:link, a:visited, a:hover{
+        color: black;
+    }
+    input[type=text]{
+        border-radius: 5px;
+    }
+    
+    /* 
+        SECTION
+    */
+    .insta__poster{
+        max-width: 600px;
+        position: relative;
+        width: 100%;
+        padding-top: 60px;
+        margin: 0 auto;
+
+    }
+
+    .poster__user{
+        display: flex;
+        border: 1px solid rgba(0,0,0,0.2);
+        border-radius: 4px;
+        padding: 10px;
+    }
+
+    .user__img,
+    .info__id,
+    .info__from{
+        display: block;
+    }
+
+    .user__info{
+        padding-left:10px;
+    }
+
+    .img__photo{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%; 
+        padding-right: 10px;
+    }
+
+    .insta__photo{
+        display: block;
+
+    }
+    .photo__main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .photo__others{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%
+        padding-top : 10px;
+        padding-bottom: 10px;
+    }
+    .others__one,
+    .others__two,
+    .others__three{
+        box-sizing: border-box;
+        width:8px;
+        height: 8px;
+        background-color: #3897f0;
+        margin-left: 5px; 
+        border-radius: 50%;
+
+    }
+
+    /* 
+        function
+    */
+
+    .insta__func{
+        display: inline;
+    }
+
+    .func__chat{
+        display: block;
+        float: left;
+    }
+
+    .func__mark{
+        display: inline;
+    }
+}

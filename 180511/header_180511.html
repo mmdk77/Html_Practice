@@ -6,44 +6,95 @@
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/smartphone_style.css">
+    <link rel="stylesheet" href="css/tablet_style.css">
+    <link rel="stylesheet" href="css/tablet_laptop_style.css">
+    <link rel="stylesheet" href="css/laptop_desktop_style.css">
     <title>Document</title>
 </head>
 
 <body>
-    <header>
-        <div class="insta__header">
-            <div class="insta__logo">
-                <a href="#">
-                    <i class="fab fa-instagram fa-3x"></i>
-                </a>
-            </div>
 
-            <div class="insta__selbox">
-                <input type="text" size="20" placeholder="검색">
-            </div>
 
-            <div class="insta__item">
-                <div class="item__compass">
+    <section>
+        <!-- header -->
+        <header>
+            <div class="insta__header">
+                <div class="insta__logo">
                     <a href="#">
-                        <i class="far fa-compass fa-2x"></i>
-                    </a>
-
-                </div>
-                <div class="item__heart">
-                    <a href="#">
-                        <i class="fas fa-heart fa-2x"></i>
-                    </a>
-
-                </div>
-                <div class="item__user">
-                    <a href="#">
-                        <i class="far fa-user-circle fa-2x"></i>
+                        <i class="fab fa-instagram fa-3x"></i>
                     </a>
                 </div>
+
+                <div class="insta__selbox">
+                    <input type="text" size="20" placeholder="검색">
+                </div>
+
+                <div class="insta__item">
+                    <div class="item__compass">
+                        <a href="#">
+                            <i class="far fa-compass fa-2x"></i>
+                        </a>
+
+                    </div>
+                    <div class="item__heart">
+                        <a href="#">
+                            <i class="fas fa-heart fa-2x"></i>
+                        </a>
+
+                    </div>
+                    <div class="item__user">
+                        <a href="#">
+                            <i class="far fa-user-circle fa-2x"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
-        </div>
-    </header>
+        </header>
+        <!-- poster -->
+        <article class="insta__poster">
+            <!-- user haedline -->
+            <header class="poster__user">
+                <div class="user__img">
+                    <img class="img__photo" src="../testImg/20171004220732_kotuiivv.jpg" alt="">
+                </div>
+                <!-- user info -->
+                <div class="user__info">
+                    <span class="info__id"> uchida maaya</span>
+                    <span class="info__from">tokyo</span>
+                </div>
+            </header>
+
+            <!-- 사진 -->
+            <div class="insta__photo">
+                <div class="photo__main">
+                    <div class="main__img">
+                        <img class="img_one" src="../testImg/20171004220732_kotuiivv.jpg" alt="">
+                    </div>
+                    <div class="photo__others">
+                            <div class="others__one"></div>
+                            <div class="others__two"></div>
+                            <div class="others__three"></div>
+                        </div>    
+                </div>
+                
+
+                <!-- 기능 -->
+                <section class="insta__func">
+                    <div class="func__chat">
+                        <i class="far fa-heart fa-2x"></i>
+                        <i class="far fa-comment fa-2x"></i>
+                    </div>
+                    <div class="func__mark">
+                        <i class="far fa-bookmark fa-2x"></i>
+                    </div>
+                </section>
+            </div>
+
+
+
+        </article>
+    </section>
 
 </body>
 
