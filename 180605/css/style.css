@@ -128,16 +128,17 @@ body{
 .footer__nav{
     display: -webkit-flex;
     justify-content: space-between;
-    height: 100px;
+    height: 140px;
 }
 
 .nav__friends,
 .nav__chats,
 .nav__channels,
 .nav__more{
+    display: block;
     color: #a9a9a9;
     padding: 25px;
-    font-size: 60px;
+    font-size: 50px;
     margin: 0, auto;
 }
 
@@ -149,5 +150,23 @@ body{
 }
 .nav__more{
     padding-right: 50px;
+}
+
+.nav__font{
+    font-size: 15px;
+    text-align: center;
+    padding: 10px
+}
+#friends{
+    margin-left: -2px;
+}
+#chat{
+    margin:0, auto;
+}
+#channels{
+    margin-left: 4px;
+}
+#more{
+    margin-left:-7px
 }
 
